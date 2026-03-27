@@ -5,6 +5,7 @@
     margin: 20px 40px;
     text-align: center;
     overflow: hidden;
+    background-color:purple;
 
 }
 
@@ -15,4 +16,8 @@ button{
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
+}
+
+.country-visited{
+    background-color: aqua;
 }
