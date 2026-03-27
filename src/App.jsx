@@ -7,13 +7,13 @@ import { Suspense } from 'react'
   return res.json()
  }
 function App() {
-
+ const countryPromise=fetchCountries()
 
   return (
     <>
      <h1>hellow World Project</h1>
      <Suspense fallback={<h2>Loading</h2>}>
-     <Countries country={fetchCountries()}></Countries>
+     <Countries countryy={countryPromise}></Countries>
      </Suspense>
      
     </>
